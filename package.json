@@ -1,0 +1,36 @@
+{
+  "name": "getm",
+  "version": "1.0.1",
+  "description": "Provides node-based general machine information",
+  "main": "index.js",
+"type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "getm": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosarberk/get-machine.git"
+  },
+  "keywords": [
+    "getm",
+    "get-machine",
+    "node-machine-id",
+    "machine-id",
+    "systeminformation"
+  ],
+  "author": "Berk COŞAR <lookmainpoint@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosarberk/get-machine/issues"
+  },
+  "homepage": "https://github.com/cosarberk/get-machine#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "node-machine-id": "^1.1.12",
+    "systeminformation": "^5.25.11"
+  }
+}
