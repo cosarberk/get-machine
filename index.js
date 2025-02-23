@@ -23,7 +23,7 @@ program
   .option('-n, --network-info', 'Show network information')
   .action(async (options) => {
     if (options.machineId) {
-      const id = machineIdSync();
+      const id = machineIdSync(true);
       console.log(chalk.green(`Machine ID: ${id}`));
     }
 
